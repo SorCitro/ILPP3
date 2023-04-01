@@ -10,6 +10,9 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 /*
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
@@ -40,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         tV_prote.setAnimation(anim2);
         iV_portada.setAnimation(anim1);
 
-      /*  new Handler().postDelayed(new Runnable() {
+       /* new Handler().postDelayed(new Runnable() {
             @Override
             public void run(){
 
@@ -58,6 +61,6 @@ public class MainActivity extends AppCompatActivity {
                     finish();
                 }
             }
-        }, 4000);*/
+        }, 4000)*/;
     }
 }
